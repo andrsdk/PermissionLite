@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="freelifer.android.permissionlite" >
+    <application>
+        <provider
+            android:authorities="${applicationId}.PermissionInitProvider"
+            android:name="freelifer.android.permissionlite.PermissionInitProvider"
+            android:exported="false"/>
+    </application>
+</manifest>
+
